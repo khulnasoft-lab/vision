@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️Ivy Vision
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: vision
           persist-credentials: false
